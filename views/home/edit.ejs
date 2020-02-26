@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit page</title>
+</head>
+<body>
+	<div>
+		<h1>Edit Info</h1> 		
+	</div>
+
+	<a href="/home/alluser"> Back to List</a> |
+	<a href="/logout"> logout</a><br>
+
+	<form method="post">
+		<table>
+			<tr>
+				<td>Id</td>
+				<td><input type="text" readonly name="aid" value="<%=user.aid%>"></td>
+			</tr>
+			<tr>
+				<td>AdminName</td>
+				<td><input type="text" name="adminname" value="<%=user.adminname%>"></td>
+			</tr>
+			<tr>
+			<tr>
+				
+				<td>CompanyName :</td>
+				<td><input type="text" name="companyname" value="<%=user.companyname%>"></td>
+			</tr>
+			<tr>
+			
+			<tr>
+				
+				<td>Contactno :</td>
+				<td><input type="text" name="contactno" value="<%=user.username%>"></td>
+			</tr>
+			<tr>
+			
+			<tr>
+				
+				<td>UserName :</td>
+				<td><input type="text" name="username" value="<%=user.contactno%>"></td>
+			</tr>
+			<tr>
+				
+				<td>Password :</td>
+				<td><input type="password" name="password" value="<%=user.password%>"></td>
+			</tr>
+			
+				<td></td>
+				<td><input type="submit" name="submit" value="Update"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
